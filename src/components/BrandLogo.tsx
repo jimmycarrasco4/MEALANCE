@@ -17,7 +17,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({ onClick, compact = false }
     >
       {!imgError ? (
         <img
-          src={`${import.meta.env.BASE_URL}logo.png`}
+          src="./logo.png"
           alt="MEALANCE Logo"
           onError={() => setImgError(true)}
           className="h-10 w-10 rounded-xl object-contain bg-emerald-50 border border-emerald-200/70 p-1 shadow-sm transition-transform group-hover:scale-105"
